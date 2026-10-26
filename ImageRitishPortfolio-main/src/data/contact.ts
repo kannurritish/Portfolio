@@ -9,7 +9,7 @@ export const contactInfo = {
   availability: "Open to Opportunities",
   status: "Job Opportunity & Freelancing",
   location: "Bengaluru, India",
-  email: "kannurritish@gmail.com",
+  email: "your-public-email@example.com",
   preferredCommunication: "Email or LinkedIn",
   expectedResponseTime: "< 24 Hours",
   workingHours: "9:00 AM - 6:00 PM",
@@ -19,21 +19,21 @@ export const contactInfo = {
 export const socialLinks: SocialLink[] = [
   {
     name: "GitHub",
-    url: "https://github.com/dashboard",
+    url: "https://github.com/kannurritish",
     iconName: "Github",
-    description: "Check out my open-source contributions and code."
+    description: "Check out my open-source contributions and code.",
   },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/ritishkannur",
     iconName: "Linkedin",
-    description: "Connect with me professionally."
+    description: "Connect with me professionally.",
   },
   {
     name: "WhatsApp",
     url: "https://wa.me/message/PN2QM2ZVWN6GF1",
     iconName: "MessageCircle",
-    description: "Message me directly on WhatsApp."
+    description: "Message me directly on WhatsApp.",
   },
 ];
 
@@ -45,7 +45,7 @@ export const projectTypeOptions = [
   "Consultation",
   "Collaboration",
   "General Inquiry",
-  "Other"
+  "Other",
 ];
 
 export const budgetOptions = [
@@ -53,7 +53,7 @@ export const budgetOptions = [
   "Under $1,000",
   "$1,000 - $5,000",
   "$5,000 - $10,000",
-  "$10,000+"
+  "$10,000+",
 ];
 
 export const timelineOptions = [
@@ -61,5 +61,6 @@ export const timelineOptions = [
   "Immediate (< 1 Month)",
   "1-3 Months",
   "3-6 Months",
-  "Flexible"
+  "Flexible",
 ];
+
